@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name                    = "JsonSerializable"
-  s.version                 = "1.0.0"
+  s.version                 = "0.1.1"
   s.summary                 = "JsonSerializable is a protocol that simplifies the process of deserializing JSON data into Swift types."
   s.description             = <<-DESC
 'JsonSerializable' is a protocol that simplifies the process of deserializing JSON data into Swift types. This protocol is similar to Mappable but is not weighed down by extra functionality. The purpose of this protocol is to be a lightweight alternative to Mappable when the additional functionality provided by Mappable is not necessary.
