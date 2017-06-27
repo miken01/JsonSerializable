@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 'JsonSerializable' is a protocol that simplifies the process of deserializing JSON data into Swift types. This protocol is similar to Mappable but is not weighed down by extra functionality. The purpose of this protocol is to be a lightweight alternative to Mappable when the additional functionality provided by Mappable is not necessary.
                    DESC
   s.homepage                = "https://github.com/miken01/JsonSerializable"
-  s.license                 = "MIT"
+  s.license                 = "LICENSE"
   s.author                  = { "Mike Neill" => "michael_neill@me.com" }
   s.platform                = :ios, "9.3"
   s.source                  = { :git => "https://github.com/miken01/JsonSerializable.git", :tag => "1.0.0" }
