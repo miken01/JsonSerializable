@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author                  = { "Mike Neill" => "michael_neill@me.com" }
   s.platform                = :ios, "9.3"
   s.source                  = { :git => "https://github.com/miken01/JsonSerializable.git", :tag => "1.0.0" }
-  s.source_files            = "JsonSerializable/**/*.{h,m,swift}"
+  s.source_files            = "JsonSerializable.swift"
   s.requires_arc            = true
   s.ios.deployment_target   = '9.3'
   s.ios.frameworks          = 'Foundation'
