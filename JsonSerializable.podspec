@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license                 = "LICENSE"
   s.author                  = { "Mike Neill" => "michael_neill@me.com" }
   s.platform                = :ios, "9.3"
-  s.source                  = { :git => "https://github.com/miken01/JsonSerializable.git", :tag => "1.0.0" }
+  s.source                  = { :git => "https://github.com/miken01/JsonSerializable.git", :tag => "0.1.1" }
   s.public_header_files     = "JsonSerializable/**/*.h"
   s.source_files            = "JsonSerializable/**/*.{h,m,swift}"
   s.requires_arc            = true
